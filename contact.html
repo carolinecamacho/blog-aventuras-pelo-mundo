@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Entre em contato comigo" />
+        <meta name="author" content="Caroline" />
+        <title>Contato - Aventuras pelo Mundo</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav id="mainNav">
+            <div class="container navbar-container">
+                <a class="navbar-brand" href="index.html">Aventuras pelo Mundo</a>
+                <button class="navbar-toggler" type="button">Menu ☰</button>
+                <ul class="navbar-menu">
+                    <li class="nav-item"><a href="index.html">Início</a></li>
+                    <li class="nav-item"><a href="about.html">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="travels.html">Destinos</a></li>
+                    <li class="nav-item"><a href="contact.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="masthead" style="background-image: url('assets/img/contact-bg.jpg')">
+            <div class="page-heading">
+                <h1>Fale Comigo</h1>
+                <span class="subheading">Tem alguma dúvida ou sugestão? Me envie uma mensagem.</span>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="row">
+                <div class="main-content-col">
+                    <p>Quer entrar em contato? Preencha o formulário abaixo para me enviar uma mensagem e retornarei o mais breve possível!</p>
+                    <div style="margin-top: 3rem; margin-bottom: 3rem;">
+                        <form id="contactForm" novalidate>
+                            <div class="form-floating">
+                                <input class="form-control" id="name" type="text" placeholder=" " />
+                                <label for="name">Nome</label>
+                            </div>
+                            <div class="form-floating">
+                                <input class="form-control" id="email" type="email" placeholder=" " />
+                                <label for="email">Endereço de E-mail</label>
+                            </div>
+                            <div class="form-floating">
+                                <input class="form-control" id="phone" type="tel" placeholder=" " />
+                                <label for="phone">Número de Telefone</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control" id="message" placeholder=" "></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+                            <br />
+                            <div class="form-success-message" id="submitSuccessMessage">
+                                <div class="fw-bolder">Mensagem enviada com sucesso!</div>
+                                Obrigada pelo contato, Caroline.
+                            </div>
+                            <button class="btn btn-primary" id="submitButton" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="main-content-col">
+                        <p class="copyright">Copyright &copy; Aventuras pelo Mundo 2024</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+        <script src="js/validation.js"></script>
+    </body>
+</html>
